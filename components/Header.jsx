@@ -17,7 +17,7 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-          <AppBar title="React + Redux + Material UI Boilerplate" />
+          <AppBar title="Bracket Factory Todo Template" />
           <h1 style={defaultStyle} >todos</h1>
           <TodoTextInput newTodo
                          onSave={this.handleSave.bind(this)}
